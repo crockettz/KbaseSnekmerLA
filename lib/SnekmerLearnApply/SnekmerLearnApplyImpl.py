@@ -324,7 +324,7 @@ This will have to be changed soon.
                                 "description" : description_prefix,
                                 "method_version" : "1.0",
                                 "method" : "Snekmer Apply",
-                                "timestamp" : datetime.now().strftime("%Y.%m.%d-%I:%M:%S%p"),
+                                "timestamp" : datetime.now().strftime("%Y-%m-%dT%H-%M-%S"),
                                 "ontology_terms":{ index : [
                                     {
                                         "term" : prediction,
